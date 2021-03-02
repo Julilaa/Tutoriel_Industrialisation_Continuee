@@ -1,0 +1,151 @@
+*
+{font-family: arial,sans-serif;
+font-size: 1em;
+}
+
+html, body
+ {
+    margin:0;
+    height:100%;
+}
+
+body{
+    Display: Flex;
+    flex-direction: column;}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+    #nav a {
+        margin-right : 20px;
+    }
+
+        #nav a.headerimage {
+            width: 20px;
+            height: 20px;
+            background: black;
+            border-radius: 10px;
+            font-style: bold;
+            text-align: center;
+            font-size: 13px;
+            color: white;
+
+        }
+        
+#middle 
+{
+    display:flex;
+    flex-grow:1;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+#logo {
+    text-align: center;
+}
+
+#searchbarcontainer 
+{
+    text-align:center;
+    margin-top: 20px;
+    position: relative;
+}
+
+#searchbar 
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 900px;
+    border: 2px grey solid;
+    border-radius: 20px;
+    }
+
+        #searchbar:hover
+        {
+            box-shadow: 0 0 3px 2px grey;
+        }
+
+            #loupe
+                { Display:Flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                margin: top 0px;
+                left: 0;
+             }
+
+             #micro
+                { Display:Flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                right:0;
+            }
+#bouttons
+{  
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.boutton1
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background: rgb(199, 198, 198);
+}
+
+
+        .boutton1:hover
+        {
+            box-shadow: 0 0 3px 2px rgb(199, 198, 198);
+        }
+
+.boutton2
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 4px ;
+    background:rgb(199, 198, 198);
+}
+
+
+        .boutton2:hover
+        {
+            box-shadow: 0 0 3px 2px rgb(199, 198, 198);
+        }
+
+#link
+
+{   margin-top: 20px;
+    text-align: center;
+}
+
+a 
+{
+    text-decoration:none;
+}
+
+a:hover
+{
+    text-decoration:underline;
+}
+
+
+#Footercredits
+{
+    background:rgb(199, 198, 198);
+    border-top: 1px solid grey;
+    font-size: 12px;
+    padding: 5px 10px;
+    text-align: justify;
+ }
+
